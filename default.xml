@@ -24,6 +24,7 @@
   <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" />
+  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" />
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
