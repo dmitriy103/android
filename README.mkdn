@@ -1,50 +1,260 @@
-CyanogenMod
-===========
-
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start gingerbread .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.com/)
-
-
-Getting Started
----------------
-
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/CyanogenMod/android.git -b gingerbread
-
-Then to sync up:
-
-    repo sync
-
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.com/) for building instructions.
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.com/index.php/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [buildbot.teamdouche.net](http://buildbot.teamdouche.net/)
+git clone git://gitorious.org/maemo-pkg/autoconf.git
+git clone git://gitorious.org/maemo-pkg/automake110.git
+git clone git://gitorious.org/maemo-pkg/vala.git
+git clone git://gitorious.org/maemo-pkg/xauth.git
+git clone git://gitorious.org/maemo-pkg/intltool.git
+git clone git://gitorious.org/maemo-pkg/debhelper.git
+git clone git://gitorious.org/maemo-pkg/po4a.git
+git clone git://gitorious.org/maemo-pkg/gettext.git
+git clone git://gitorious.org/maemo-pkg/libxml-parser-perl.git
+git clone git://gitorious.org/maemo-pkg/libhtml-parser-perl.git
+git clone git://gitorious.org/maemo-pkg/quilt.git
+git clone git://gitorious.org/maemo-pkg/findutils.git
+git clone git://gitorious.org/maemo-pkg/libtest-pod-perl.git
+git clone git://gitorious.org/maemo-pkg/io-stringy.git
+git clone git://gitorious.org/maemo-pkg/libpod-simple-perl.git
+git clone git://gitorious.org/maemo-pkg/automake1111.git
+git clone git://gitorious.org/maemo-pkg/liblocale-gettext-perl.git
+git clone git://gitorious.org/maemo-pkg/libcompress-zlib-perl.git
+git clone git://gitorious.org/maemo-pkg/libmodule-build-perl.git
+git clone git://gitorious.org/maemo-pkg/libroman-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-charwidth-perl.git
+git clone git://gitorious.org/maemo-pkg/liburi-perl.git
+git clone git://gitorious.org/maemo-pkg/libyaml-perl.git
+git clone git://gitorious.org/maemo-pkg/libio-zlib-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-desktopentry-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-pod-coverage-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-format-perl.git
+git clone git://gitorious.org/maemo-pkg/libwww-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-cpan-meta-perl.git
+git clone git://gitorious.org/maemo-pkg/libpod-coverage-perl.git
+git clone git://gitorious.org/maemo-pkg/libparse-cpan-meta-perl.git
+git clone git://gitorious.org/maemo-pkg/libio-string-perl.git
+git clone git://gitorious.org/maemo-pkg/libclone-perl.git
+git clone git://gitorious.org/maemo-pkg/libdevel-symdump-perl.git
+git clone git://gitorious.org/maemo-pkg/liblist-moreutils-perl.git
+git clone git://gitorious.org/maemo-pkg/libparams-util-perl.git
+git clone git://gitorious.org/maemo-pkg/libtask-weaken-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-object-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-minimumversion-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-remove-perl.git
+git clone git://gitorious.org/maemo-pkg/libppi-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-glob-perl.git
+git clone git://gitorious.org/maemo-pkg/libnumber-compare-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-find-rule-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-find-rule-perl-perl.git
+git clone git://gitorious.org/maemo-pkg/libperl-minimumversion-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-spec-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-which-perl.git
+git clone git://gitorious.org/maemo-pkg/libarchive-zip-perl.git
+git clone git://gitorious.org/maemo-pkg/libpar-dist-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-harness-perl.git
+git clone git://gitorious.org/maemo-pkg/libtie-cphash-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-basedir-perl.git
+git clone git://gitorious.org/maemo-pkg/libbusiness-isbn-data-perl.git
+git clone git://gitorious.org/maemo-pkg/libgd2.git
+git clone git://gitorious.org/maemo-pkg/libgd-gd2-noxpm-perl.git
+git clone git://gitorious.org/maemo-pkg/libgd-barcode-perl.git
+git clone git://gitorious.org/maemo-pkg/libbusiness-isbn-perl.git
+git clone git://gitorious.org/maemo-pkg/libcompress-bzip2-perl.git
+git clone git://gitorious.org/maemo-pkg/libgd-gd2-perl.git
+git clone git://gitorious.org/maemo-pkg/m4.git
+git clone git://gitorious.org/maemo-pkg/gperf.git
+git clone git://gitorious.org/maemo-pkg/fakeroot.git
+git clone git://gitorious.org/maemo-pkg/libtest-subcalls-perl.git
+git clone git://gitorious.org/maemo-pkg/libhook-lexwrap-perl2.git
+git clone git://gitorious.org/maemo-pkg/libtest-tester-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-nowarnings-perl.git
+git clone git://gitorious.org/maemo-pkg/libconfig-tiny-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-classapi-perl.git
+git clone git://gitorious.org/maemo-pkg/libclass-inspector-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-simple-perl.git
+git clone git://gitorious.org/maemo-pkg/exempi.git
+git clone git://gitorious.org/maemo-pkg/db.git
+git clone git://gitorious.org/maemo-pkg/tcl8_5.git
+git clone git://gitorious.org/maemo-pkg/db-defaults.git
+git clone git://gitorious.org/maemo-pkg/patchutils.git
+git clone git://gitorious.org/maemo-pkg/apt.git
+git clone git://gitorious.org/maemo-pkg/libtest-script-perl.git
+git clone git://gitorious.org/maemo-pkg/libipc-run3-perl.git
+git clone git://gitorious.org/maemo-pkg/gnome-pkg-tools.git
+git clone git://gitorious.org/maemo-pkg/pcre3.git
+git clone git://gitorious.org/maemo-pkg/glib2.git
+git clone git://gitorious.org/maemo-pkg/gnupg.git
+git clone git://gitorious.org/maemo-pkg/asciidoc.git
+git clone git://gitorious.org/maemo-pkg/perl.git
+git clone git://gitorious.org/maemo-pkg/cpio.git
+git clone git://gitorious.org/maemo-pkg/gdbm.git
+git clone git://gitorious.org/maemo-pkg/libprobe-perl-perl.git
+git clone git://gitorious.org/maemo-pkg/bash.git
+git clone git://gitorious.org/maemo-pkg/procmail.git
+git clone git://gitorious.org/maemo-pkg/texinfo.git
+git clone git://gitorious.org/maemo-pkg/shared-mime-info2.git
+git clone git://gitorious.org/maemo-pkg/dpkg.git
+git clone git://gitorious.org/maemo-pkg/lzma.git
+git clone git://gitorious.org/maemo-pkg/libonig.git
+git clone git://gitorious.org/maemo-pkg/slang2.git
+git clone git://gitorious.org/maemo-pkg/nano.git
+git clone git://gitorious.org/maemo-pkg/texi2html.git
+git clone git://gitorious.org/maemo-pkg/emacsen-common.git
+git clone git://gitorious.org/maemo-pkg/emacs23.git
+git clone git://gitorious.org/maemo-pkg/liblockfile.git
+git clone git://gitorious.org/maemo-pkg/ed.git
+git clone git://gitorious.org/maemo-pkg/mawk.git
+git clone git://gitorious.org/maemo-pkg/hostname.git
+git clone git://gitorious.org/maemo-pkg/xml-core.git
+git clone git://gitorious.org/maemo-pkg/xmlto.git
+git clone git://gitorious.org/maemo-pkg/tcl83.git
+git clone git://gitorious.org/maemo-pkg/tcl84.git
+git clone git://gitorious.org/maemo-pkg/gawk.git
+git clone git://gitorious.org/maemo-pkg/sed.git
+git clone git://gitorious.org/maemo-pkg/psutils.git
+git clone git://gitorious.org/maemo-pkg/sgmltools-lite.git
+git clone git://gitorious.org/maemo-pkg/libxml-perl.git
+git clone git://gitorious.org/maemo-pkg/libxml-regexp-perl.git
+git clone git://gitorious.org/maemo-pkg/libxml-dom-perl.git
+git clone git://gitorious.org/maemo-pkg/libtool.git
+git clone git://gitorious.org/maemo-pkg/grep.git
+git clone git://gitorious.org/maemo-pkg/tex-common.git
+git clone git://gitorious.org/maemo-pkg/appconfig.git
+git clone git://gitorious.org/maemo-pkg/texlive-base.git
+git clone git://gitorious.org/maemo-pkg/eperl.git
+git clone git://gitorious.org/maemo-pkg/texlive-bin.git
+git clone git://gitorious.org/maemo-pkg/texlive-doc.git
+git clone git://gitorious.org/maemo-pkg/texlive-lang.git
+git clone git://gitorious.org/maemo-pkg/texlive-extra.git
+git clone git://gitorious.org/maemo-pkg/linuxdoc-tools.git
+git clone git://gitorious.org/maemo-pkg/bc.git
+git clone git://gitorious.org/maemo-pkg/timedate.git
+git clone git://gitorious.org/maemo-pkg/attr.git
+git clone git://gitorious.org/maemo-pkg/acl.git
+git clone git://gitorious.org/maemo-pkg/docbook-utils.git
+git clone git://gitorious.org/maemo-pkg/sharutils.git
+git clone git://gitorious.org/maemo-pkg/autotools-dev.git
+git clone git://gitorious.org/maemo-pkg/debiandoc-sgml.git
+git clone git://gitorious.org/maemo-pkg/file.git
+git clone git://gitorious.org/maemo-pkg/lsof.git
+git clone git://gitorious.org/maemo-pkg/xz-utils.git
+git clone git://gitorious.org/maemo-pkg/libintl-perl.git
+git clone git://gitorious.org/maemo-pkg/tinycdb.git
+git clone git://gitorious.org/maemo-pkg/enca.git
+git clone git://gitorious.org/maemo-pkg/shared-mime-info.git
+git clone git://gitorious.org/maemo-pkg/libterm-readkey-perl.git
+git clone git://gitorious.org/maemo-pkg/python-dateutil.git
+git clone git://gitorious.org/maemo-pkg/python-debian.git
+git clone git://gitorious.org/maemo-pkg/gmp.git
+git clone git://gitorious.org/maemo-pkg/dblatex.git
+git clone git://gitorious.org/maemo-pkg/python-crypto.git
+git clone git://gitorious.org/maemo-pkg/python-distutils-extra.git
+git clone git://gitorious.org/maemo-pkg/python-apt.git
+git clone git://gitorious.org/maemo-pkg/ghostscript.git
+git clone git://gitorious.org/maemo-pkg/gsfonts.git
+git clone git://gitorious.org/maemo-pkg/defoma.git
+git clone git://gitorious.org/maemo-pkg/cdbs.git
+git clone git://gitorious.org/maemo-pkg/tipa.git
+git clone git://gitorious.org/maemo-pkg/jadetex.git
+git clone git://gitorious.org/maemo-pkg/python-central.git
+git clone git://gitorious.org/maemo-pkg/poppler.git
+git clone git://gitorious.org/maemo-pkg/x11-utils.git
+git clone git://gitorious.org/maemo-pkg/libalgorithm-diff-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-diff-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-differences-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-deep-perl.git
+git clone git://gitorious.org/maemo-pkg/libemail-address-perl.git
+git clone git://gitorious.org/maemo-pkg/libpod-spell-perl.git
+git clone git://gitorious.org/maemo-pkg/libclass-data-inheritable-perl.git
+git clone git://gitorious.org/maemo-pkg/libdevel-stacktrace-perl.git
+git clone git://gitorious.org/maemo-pkg/libexception-class-perl.git
+git clone git://gitorious.org/maemo-pkg/libstring-format-perl.git
+git clone git://gitorious.org/maemo-pkg/libreadonly-perl.git
+git clone git://gitorious.org/maemo-pkg/perltidy.git
+git clone git://gitorious.org/maemo-pkg/libb-keywords-perl.git
+git clone git://gitorious.org/maemo-pkg/libreadonly-xs-perl.git
+git clone git://gitorious.org/maemo-pkg/libfile-homedir-perl.git
+git clone git://gitorious.org/maemo-pkg/libperl-critic-perl.git
+git clone git://gitorious.org/maemo-pkg/debconf.git
+git clone git://gitorious.org/maemo-pkg/patch.git
+git clone git://gitorious.org/maemo-pkg/ucf.git
+git clone git://gitorious.org/maemo-pkg/libyaml-tiny-perl.git
+git clone git://gitorious.org/maemo-pkg/libextutils-cbuilder-perl.git
+git clone git://gitorious.org/maemo-pkg/libextutils-parsexs-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-perl-critic-perl.git
+git clone git://gitorious.org/maemo-pkg/libsub-install-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-template-perl.git
+git clone git://gitorious.org/maemo-pkg/libdata-optlist-perl.git
+git clone git://gitorious.org/maemo-pkg/libsub-exporter-perl.git
+git clone git://gitorious.org/maemo-pkg/libmixin-linewise-perl.git
+git clone git://gitorious.org/maemo-pkg/libpod-eventual-perl.git
+git clone git://gitorious.org/maemo-pkg/libpod-coverage-trustpod-perl.git
+git clone git://gitorious.org/maemo-pkg/libdata-section-perl.git
+git clone git://gitorious.org/maemo-pkg/libsoftware-license-perl.git
+git clone git://gitorious.org/maemo-pkg/gobject-introspection.git
+git clone git://gitorious.org/maemo-pkg/dash.git
+git clone git://gitorious.org/maemo-pkg/groff.git
+git clone git://gitorious.org/maemo-pkg/openjade.git
+git clone git://gitorious.org/maemo-pkg/opensp.git
+git clone git://gitorious.org/maemo-pkg/docbook.git
+git clone git://gitorious.org/maemo-pkg/docbook-xml.git
+git clone git://gitorious.org/maemo-pkg/docbook-xsl.git
+git clone git://gitorious.org/maemo-pkg/docbook-dsssl.git
+git clone git://gitorious.org/maemo-pkg/docbook-to-man.git
+git clone git://gitorious.org/maemo-pkg/sgml-base.git
+git clone git://gitorious.org/maemo-pkg/sgml-data.git
+git clone git://gitorious.org/maemo-pkg/giflib.git
+git clone git://gitorious.org/maemo-pkg/libspiro.git
+git clone git://gitorious.org/maemo-pkg/fontforge.git
+git clone git://gitorious.org/maemo-pkg/help2man.git
+git clone git://gitorious.org/maemo-pkg/html2text.git
+git clone git://gitorious.org/maemo-pkg/doxygen.git
+git clone git://gitorious.org/maemo-pkg/tar.git
+git clone git://gitorious.org/maemo-pkg/luatex.git
+git clone git://gitorious.org/maemo-pkg/abi-compliance-checker.git
+git clone git://gitorious.org/maemo-pkg/desktop-file-utils.git
+git clone git://gitorious.org/maemo-pkg/unac.git
+git clone git://gitorious.org/maemo-pkg/gmime24.git
+git clone git://gitorious.org/maemo-pkg/libgee.git
+git clone git://gitorious.org/maemo-pkg/libsub-name-perl.git
+git clone git://gitorious.org/maemo-pkg/libclass-c3-xs-perl.git
+git clone git://gitorious.org/maemo-pkg/libsub-uplevel-perl.git
+git clone git://gitorious.org/maemo-pkg/libtest-exception-perl.git
+git clone git://gitorious.org/maemo-pkg/libalgorithm-c3-perl.git
+git clone git://gitorious.org/maemo-pkg/libclass-c3-perl.git
+git clone git://gitorious.org/maemo-pkg/libmro-compat-perl.git
+git clone git://gitorious.org/maemo-pkg/sqlite3.git
+git clone git://gitorious.org/maemo-pkg/python-old-doctools.git
+git clone git://gitorious.org/maemo-pkg/test-empty.git
+git clone git://gitorious.org/maemo-pkg/test-no-master.git
+git clone git://gitorious.org/maemo-pkg/test-cycle-one.git
+git clone git://gitorious.org/maemo-pkg/test-cycle-two.git
+git clone git://gitorious.org/maemo-pkg/test-cycle-three.git
+git clone git://gitorious.org/maemo-pkg/test-wrong-component.git
+git clone git://gitorious.org/maemo-pkg/devscripts.git
+git clone git://gitorious.org/maemo-pkg/pango10.git
+git clone git://gitorious.org/maemo-pkg/pyxdg.git
+git clone git://gitorious.org/maemo-pkg/dctrl-tools.git
+git clone git://gitorious.org/maemo-pkg/xdg-utils.git
+git clone git://gitorious.org/maemo-pkg/lcov.git
+git clone git://gitorious.org/maemo-pkg/xdg-user-dirs.git
+git clone git://gitorious.org/maemo-pkg/epydoc.git
+git clone git://gitorious.org/maemo-pkg/python-docutils.git
+git clone git://gitorious.org/maemo-pkg/jinja2.git
+git clone git://gitorious.org/maemo-pkg/pygments.git
+git clone git://gitorious.org/maemo-pkg/libjson-xs-perl.git
+git clone git://gitorious.org/maemo-pkg/libjson-perl.git
+git clone git://gitorious.org/maemo-pkg/libcommon-sense-perl.git
+git clone git://gitorious.org/maemo-pkg/tiff.git
+git clone git://gitorious.org/maemo-pkg/jquery.git
+git clone git://gitorious.org/maemo-pkg/sphinx.git
+git clone git://gitorious.org/maemo-pkg/shtool.git
+git clone git://gitorious.org/maemo-pkg/jbig2dec.git
+git clone git://gitorious.org/maemo-pkg/d-shlibs.git
+git clone git://gitorious.org/maemo-pkg/libppix-regexp-perl.git
+git clone git://gitorious.org/maemo-pkg/libppix-utilities-perl.git
+git clone git://gitorious.org/maemo-pkg/chardet.git
+git clone git://gitorious.org/maemo-pkg/markupsafe.git
+git clone git://gitorious.org/maemo-pkg/libtext-iconv-perl.git
+git clone git://gitorious.org/maemo-pkg/libtext-wrapi18n-perl.git
+git clone git://gitorious.org/maemo-pkg/lua51.git
+git clone git://gitorious.org/maemo-pkg/gnome-common.git
+git clone git://gitorious.org/maemo-pkg/qjson.git
+git clone git://gitorious.org/maemo-pkg/libarchive.git
